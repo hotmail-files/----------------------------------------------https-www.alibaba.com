@@ -1,0 +1,114 @@
+<html lang="en" dir="ltr" class="" style="display: block;"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+    <title>Twitter / Authorize an application</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="https://abs-0.twimg.com/login/tfw-base.7e06ee28700aedd7c02bbeed82c433d7242b28f2.css">
+    <!--[if (IEMobile) & (lt IE 9)]>
+      <link href="https://abs-0.twimg.com/login/phoenix-iemobile.104678bc7c9a0fb1f16229c5bb8c4288c0e1b560.css" media="screen" rel="stylesheet" type="text/css" />
+    <![endif]-->
+        <meta name="mswebdialog-title" content="Twitter"><meta name="mswebdialog-logo" content="https://abs.twimg.com/favicons/win8-auth-60.png"><meta name="mswebdialog-header-color" content="#202020"><meta name="mswebdialog-newwindowurl" content="*">
+
+
+      <script src="//abs-0.twimg.com/login/base.0f5a1a3f35b9bc26633140a07d5ec411f43099e2.js" type="text/javascript"></script>
+      <script src="//abs-0.twimg.com/login/authorize_page.c4edf9ccaf94a42b6963991691957aaa827aa56b.js" type="text/javascript"></script>
+  <base target="_blank"></head>
+  
+  
+  <body class="oauth  tfw en logged-out    noloki js">
+
+    <div id="header" role="banner">
+      <div class="bar">
+        <h1 class="logo">
+          <a class="alternate-context" href="https://twitter.com/home">Twitter</a>
+        </h1>
+
+        <div id="not-logged-in">
+              <a href="https://twitter.com/signup?context=oauth&amp;oauth_token=BOh7BgAAAAAA1G3YAAABXb6UL9c" class="register alternate-context">Sign up for Twitter</a>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="bd" role="main">
+          
+
+
+
+
+    <div class="auth">
+      <h2>Authorize Login for Alibaba.com to use your account?</h2>
+
+      <div class="app-info" role="content-info" tabindex="0">
+  <h3>
+    <img alt="" class="app-icon" src="https://abs.twimg.com/a/1404172626/images/oauth_application.png" title="Login for Alibaba.com">
+    Login for Alibaba.com
+  </h3>
+  <dl>
+      <dt class="url">Application URL</dt>
+      <dd class="url">www.alibaba.com</dd>
+      <dt class="notes">About this app</dt>
+      <dd class="notes"><p>Find quality Manufacturers, Suppliers, Exporters, Importers, Buyers, Wholesalers, Products and Trade Leads from our award-winning International Trade Site. Import Export on alibaba.com</p></dd>
+
+  </dl>
+</div>
+
+      <form action="https://api.twitter.com/oauth/authenticate" id="oauth_form" method="post" target="_self">
+        <div>
+          <input name="authenticity_token" type="hidden" value="75c300ffb5850a1b50adc7bf744b821246bde3bf">
+          <input name="redirect_after_login" type="hidden" value="https://api.twitter.com/oauth/authenticate?oauth_token=BOh7BgAAAAAA1G3YAAABXb6UL9c">
+        </div>
+
+        <input id="oauth_token" name="oauth_token" type="hidden" value="BOh7BgAAAAAA1G3YAAABXb6UL9c">
+
+          <fieldset class="sign-in">
+  <legend>Log in to Twitter</legend>
+  <div class="row user">
+    <input aria-required="true" autocapitalize="off" autocorrect="off" autofocus="autofocus" class="text" id="username_or_email" name="session[username_or_email]" type="text" placeholder="Username or email" value="">
+  </div>
+  <div class="row password">
+    <input aria-required="true" class="password text" id="password" name="session[password]" type="password" placeholder="Password" value="">
+  </div>
+  <p>
+    <input type="checkbox" name="remember_me" id="remember" value="1">
+    <label for="remember">Remember me</label>
+    ·
+    
+  </p>
+    <input type="hidden" name="ui_metrics" autocomplete="off" value="{&quot;rf&quot;:{&quot;e6d3c8a24049f1c8c0002081d209f4d74ca683b05f5f1950b127084b7e36ad72&quot;:-97,&quot;a62d7a66ceba34284e291479c2e55c890c6817333df1aef53dbdfb1135cae8d6&quot;:-97,&quot;a176d9cb93e094da60d162cd415493c17780b0bb7d668ab93c8a8eae88beef15&quot;:112,&quot;a3b372322100c68d404c76ee389f4dc7f460faae53fb384f59d43cd75a897bbd&quot;:-97},&quot;s&quot;:&quot;s-TZcLri3yR8CYwuvirnU3AwUDJRvecB66l3vIeL19EcQ60_szUpVlN-cmyQBPGgGot8QrGWMIZntUtPpuQdAefVhJp7vsP3ex9qsKXeK5mUBEWumpHtq5u9Zu2kmoUZkW3h1qOsH63gz1tra2AOU_HCHfbqabajtZwsgw_aQzqJBISR6NxRKmxJkE4g7hXH81dszRfMutX0B-6NA0Y9Irgs2C97mKnJfqzHklJHlVZ6kYmBsIn5s6-GPhxzKVWLMNEqJBPUmKjVRkEObtN5EnITPYINyG3AiH49ISclxKCXL-C4E-DxjdALjMShb-xTPkes_HGjB_sauP0L5MYNRAAAAV2-lDL8&quot;}">
+    <script src="https://twitter.com/i/js_inst?c_name=ui_metrics" async=""></script>
+</fieldset>
+
+
+        <fieldset class="buttons">
+          <legend>Sign in to Login for Alibaba.com using your account?</legend>
+          <input type="submit" value="Sign In" class="submit button selected" id="allow">
+
+            <input class="submit button" id="cancel" name="cancel" type="submit" value="Cancel">
+
+        </fieldset>
+      </form>
+
+      
+
+      
+
+    </div>
+
+    </div>
+
+
+  <div class="footer" role="navigation"><div id="ft">
+    
+        
+  <p class="tip">You can revoke access to any application at any time from the <a href="https://twitter.com/settings/applications" target="_blank">Applications tab</a> of your Settings page.</p>
+  <p><small>By authorizing an application you continue to operate under <a href="https://twitter.com/tos" target="_blank">Twitter's Terms of Service</a>. In particular, some usage information will be shared back with Twitter. For more, see our <a href="https://twitter.com/privacy" target="_blank">Privacy Policy</a>.</small></p>
+
+
+
+
+  </div></div>
+
+  
+
+</body></html>
